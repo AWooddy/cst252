@@ -9,3 +9,13 @@ font family: "Comic Sans MS";
 text-indent: 30px;
 margin-left: 15px;
 }
+
+#content {
+  background-color: #FFB6C1;
+  width: 800px;
+  min-height: 400px;
+  padding: 20px;
+  margin: 10px;
+  border: solid 2px ##8B008B;
+  font-size: 20px;
+}
