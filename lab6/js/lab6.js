@@ -5,15 +5,15 @@
 */
 
 //Define Variables
-myTransport = ["Ford Taurus","bike","rides from friends", "Lime Scooter"];
+myTransport = ["Acura Legend","bus","rides from friends", "bike"];
 
 myMainRide = {
-	make: "Ford",
-	model: "Taurus",
+	make: "Acura",
+	model: "Legend",
 	color: "Rusty",
 	year: 1995,
 	age: function() 
-	{ return 2019 - age; 
+	{ return 2020 - age; 
 
 	}
 }
