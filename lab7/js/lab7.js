@@ -5,7 +5,7 @@ license: Public Domain
 */
 
 
-// Define Variables
+// referenced from Wes Modes(instructor at CSUMB)
 function sortUserName () {
 	var userName = window.prompt("Hi. Welcome to the forest, what is your name?");
 	console.log("userName =", userName);
