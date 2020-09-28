@@ -5,6 +5,16 @@ license: Public Domain
 */
 
 
+
+
+function firstThing(test) {
+	console.log(test + ": This is the First Thing. <br>")
+}
+
+function secondThing(test) {
+	console.log(test + ": This is the Second Thing. <br>")
+}
+
 function thirdThing(test) {
 	console.log(test + ": This is the Third Thing. <br>")
 }
