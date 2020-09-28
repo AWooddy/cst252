@@ -6,6 +6,7 @@ license: Public Domain
 
 
 
+/* JS code referenced from screenshot provide by Wes Modes (instructor @ CSUMB)*/
 
 function firstThing(test) {
 	console.log(test + ": This is the First Thing. <br>")
