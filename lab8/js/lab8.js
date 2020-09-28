@@ -34,6 +34,7 @@ setTimeout(function() {
 	secondThing("TEST 3");
 }, 3000);
 
-setTimeout(function() {
-	thirdThing("TEST 3");
+setTimeout( function() {
+	thirdThing("TEST 3")
 }, 1000);
+
