@@ -30,10 +30,10 @@ setTimeout(function() {
 	
 }, 2000);
 
-setTimeout(function(){
+setTimeout(function() {
 	secondThing("TEST 3");
 }, 3000);
 
-setTimeout(Function(){
+setTimeout(function() {
 	thirdThing("TEST 3");
 }, 1000);
