@@ -35,6 +35,6 @@ setTimeout(function() {
 }, 3000);
 
 setTimeout( function() {
-	thirdThing("TEST 3")
+	thirdThing("TEST 3");
 }, 1000);
 
