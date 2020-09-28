@@ -32,7 +32,7 @@ setTimeout(function() {
 
 setTimeout(function(){
 	secondThing("TEST 3");
-} 3000);
+}, 3000);
 
 setTimeout(Function(){
 	thirdThing("TEST 3");
