@@ -10,7 +10,9 @@ function thirdThing(test) {
 }
 
 firstThing("TEST 1");
+
 secondThing("TEST 1");
+
 thirdThing("TEST 1");
 
 setTimeout(function() {
@@ -28,13 +30,13 @@ setTimeout(function() {
 setTimeout(function() {
  firstThing("TEST 3");
 	
-}, 2000);
+}, 3000);
 
 setTimeout(function() {
 	secondThing("TEST 3");
-}, 3000);
+}, 1000);
 
 setTimeout( function() {
 	thirdThing("TEST 3");
-}, 1000);
+}, 2000);
 
