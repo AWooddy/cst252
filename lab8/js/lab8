@@ -6,7 +6,7 @@ license: Public Domain
 
 
 function thirdThing(test) {
-	console.log(test +": This is the Third Thing. <b3>")
+	console.log(test + ": This is the Third Thing. <br>")
 }
 
 firstThing("TEST 1");
