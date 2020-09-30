@@ -1,0 +1,38 @@
+
+
+h1 {
+  color: white;
+  font-size: 150%;
+}
+
+img {
+
+  border-radius: 50%;
+}
+
+
+body {
+	background-color: white;
+}
+
+p {
+font family: "arial";
+color: blue;
+text-indent: 30px;
+margin-left: 15px;
+}
+
+
+#content {
+
+  border-radius: 15;
+  background-color: #FFB6C1;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: solid 2px ##8B008B;
+  font-size: 20px;
+  border: 10px solid white;
+  border-radius: 15px;
+}
