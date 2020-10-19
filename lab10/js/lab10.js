@@ -8,20 +8,10 @@ code referenced from Wes Modes (Csumb) lecture.
 
 
  
- var button = document.getElementbyId("nameButton");
- var heading = document.getElementbyId("heading");
+var button = document.getElementById("button");
+var input = document.getElementById("input");
 
- function buttonPress () {
-
- 	var inputText = document.getElementbyId("input").value;
-
- 	heading.innerText = "Hello," + inputText; 
-
- 	input.value = "";
-
- 	input.focus();
- }
-
- button.addEventListener("mouseover", buttonPress);
- function alertClick() { alert ("I hope this told you something:", input.value);
-
+button.addEventListener("click", function() {
+	inputValue = document.getElementById ("myinput").value;
+	document.writeln("Your name is probably:", inputValue);
+});
