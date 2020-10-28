@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Lab 15 </title>
+  
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+  	 <img src= "img/img.jpg">
+ 	 <script src="js/lab.js" defer></script>
+
+</head>
+
+<body>
+<div id="content">
+		 <h1> Lab 15 </h1>
+			 <h2> Subjext </h2>
+			 <p> Use classes in lab 14 and try to come up with lists that can be incorporated into a coding format. </p>
+
+			 <h2> Challenges </h2>
+			 <p> No Challenges! </p>
+
+			 <h2> Results </h2>
+			 <p> If this page is working then thats the results bb.  </p>
+
+	<div id="output">
+	</div>
+
+	<div id="second">
+		<h2> Object Oriented design // Referenced from Wes Modes class notes </h2>
+	<h3> Step 1 </h3>
+		<ul>  Set up the game 
+			<li> board and players </li>
+			<li> Game loop</li>
+			<li> Draw the board</li>
+            <li> Get new move from player </li>
+            <li> Validate move</li>
+            <li> Check for win condition</li>
+            <li> Switch players</li>
+		
+		</ul>
+
+	<h2> Step 2 </h2>
+          <ul> 
+       <li>	Set up the game initially</li>
+ 			<li>Create a game board</li>
+ 			<li>Create a couple players</li>
+		<li>Start the game loop</li>
+ 			<li>Render the board</li>
+ 			<li>Ask for and validate the current</li>
+ 			<li>player's coordinates</li>
+		<li> If the game should end</li>
+			<li> Display the proper victory / draw message</li>
+			 <li>Stop looping</li>
+		<li> Else</li>
+ 			<li>Switch to the next player and</li>
+ 			<li>keep looping</li>
+ 		</ul>
+
+ 	<h3> Step 3 </h3>
+ 		<ul>
+ 		<li>Set up the game initially [TicTacToe]</li>
+ 			<li>Create a game board [Board]</li>
+ 			<li>Create a couple players [Player]</li>
+		<li>Start the game loop [TicTacToe]</li>
+ 			<li>Render the board [Board]</li>
+ 			<li>Ask for and validate the current</li>
+ 			<li>player's coordinates [Player]</li>
+ 		<li>If the game should end [TicTacToe]</li>
+ 			<li>Display the proper victory /lose message</li>
+ 			<li>Stop looping</li>
+		<li>Else</li>
+ 			<li>Switch to the next player and</li>
+ 			<li>keep looping [TicTacToe]</li>
+ 		</ul>
+
+	<h3> Step 4 </h3>
+		 <p> Identifying the classes used in step 3, and understanding how they work and interact with the rest of the code, such as [TicTacToe] or [Player], as each class works to identify something in its own way </p>
+
+     <h3> Step 5 </h3>
+    		 <ul>
+
+		<li>class TicTacToe { </li>
+		 //
+		<li>	constructor(name1, name2) { </li>
+		 //
+ 		<li>	this.board = new Board(); </li>
+ 		 // 
+ 			<li>this.player1 = new Player(name1, 1, this.board); </li>
+ 			<li>this.player2 = new Player(name2, 2, this.board); </li>
+ 		// 
+ 			<li>this.current_player = this.player1; </li>
+					 }
+		 // 
+			<li> play() { </li>
+		 // 
+			<li>while(true) { </li>
+		 // 
+ 			<li>this.board.render(); </li>
+		 // 
+ 			<li>current_player.get_coordinates(); </li>
+		//
+			</ul>
+
+</div>
+
+</body>
+
+</html>
