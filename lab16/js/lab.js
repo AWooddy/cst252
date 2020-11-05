@@ -1,6 +1,6 @@
 /*
 Author: Alex Wooddy <awooddy@csumb.edu>
-created: october 27, 2020
+created: Nov 1, 2020
 license: Public Domain
 
 code referenced from Wes Modes (Csumb) lecture.

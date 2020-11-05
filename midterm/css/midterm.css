@@ -1,0 +1,29 @@
+
+
+ul {
+  white-space: nowrap;
+
+}
+
+ul, li {
+  list-style: none;
+  display: inline-block;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.metabox {
+  width: 200px;
+  left: 200px;
+  border: solid 1px red;
+  visibility: hidden;
+}
+
+.show:gov {
+  visibility: visible;
+}
+
