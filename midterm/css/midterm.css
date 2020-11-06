@@ -11,7 +11,6 @@ ul, li {
 }
 
 img{
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -27,3 +26,19 @@ img{
   visibility: visible;
 }
 
+.thing1 {
+  display: inline-block;
+}
+
+.thing1, .hoverable {
+  display: inline-block;
+
+}
+
+.hidden_paragraph {
+  display: inline-block;
+  width: 200px;
+  left: 200px;
+  border: solid 1px red;
+  visibility: hidden;
+}
