@@ -3,8 +3,7 @@ Author: Alex Wooddy <awooddy@csumb.edu>
 created: Nov 1, 2020
 license: Public Domain
 
-code referenced from Wes Modes (Csumb) lecture.
-*/
+Alot of help from user/somekindofsorcery/ on reddit from learningprogramming! */
 
 
 $(".thing1").hover(
