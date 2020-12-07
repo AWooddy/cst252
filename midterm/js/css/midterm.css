@@ -1,0 +1,101 @@
+
+ul {
+  white-space: nowrap;
+
+}
+
+ul, li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 58px;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.metabox {
+  width: 500px;
+  left: 200px;
+  border: solid 2px darkblue;
+  visibility: hidden;
+  background-color: white;
+  border-radius: 8px;
+  margin-left: 570px;
+}
+
+.show:gov {
+  visibility: visible;
+}
+
+.thing1 {
+  position: absolute;
+  display: block;
+  left: -50px;
+  top: 500px;
+  z-index: -1;
+
+}
+
+.thing1, .hoverable {
+  display: inline-block;
+
+}
+
+.hidden_paragraph {
+  display: inline-block;
+  width: 200px;
+  left: 200px;
+  border: solid 2px darkblue;
+  visibility: hidden;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+body {
+  background-color: #d2f9fc;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  background-color: #3495bf;
+  color: white;
+}
+
+.img2 {
+  display: block;
+  position: absolute;
+  left: 500px;
+  top: 700px;
+}
+
+.img3 {
+  display: block;
+  position: absolute;
+  left: 1000px;
+  top: 950px;
+}
+
+.img4 {
+  display: block;
+  position: absolute;
+  left: 810px;
+  top: 500px;
+}
+
+.img5 {
+  display: block;
+  position: absolute;
+  left: 800px;
+  top: 1300px;
+}
+
+.img6 {
+  display: block;
+  position: absolute;
+  left: 400px;
+  top: 1300px;
+}
